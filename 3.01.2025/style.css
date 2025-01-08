@@ -1,0 +1,447 @@
+/* Body and HTML */
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  height: 100%;
+  color: white;
+  /* background: url('background.jpg') no-repeat center center fixed; */
+  background: linear-gradient(rgba(251, 252, 255, 0.7), rgba(4,9,30,0.7)), url('background.jpg');
+background-repeat: no-repeat;
+background-position: center center;
+background-attachment: fixed;
+background-size: cover;
+}
+/* index.html button */
+.button {
+  color: white;
+  background-color: crimson;
+  border-radius: 12px;
+  width:2px 2px;
+  padding: 10px 20px; /* Adds spacing inside the button */
+  border: none; /* Removes default border */
+  cursor: pointer; /* Changes cursor to a pointer on hover */
+  font-size: 10px; /* Makes the text size more readable */
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+.button:hover {
+  background-color: darkred; /* Changes background color on hover */
+}
+.background {
+  background-image: url('https://assets.nflxext.com/ffe/siteui/vlv3/5c89e5e5-7c9e-4f2b-85fa-3070d9e9a4b8/1c7e7e4b-6319-44b5-90c1-14c9a8c64b66/IN-en-20230626-popsignuptwoweeks-perspective_alpha_website_large.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: relative;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5); /* Dark overlay */
+  height: 100%;
+  width: 100%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+}
+
+.logo span {
+  color: red;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.signin-btn {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.signin-btn:hover {
+  background-color: darkred;
+}
+
+.content {
+  text-align: center;
+  color: white;
+  margin-top: 150px;
+}
+
+.content h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.content p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.email-input {
+  padding: 10px;
+  font-size: 16px;
+  width: 300px;
+  border: none;
+  border-radius: 5px 0 0 5px;
+}
+
+.try-btn {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.try-btn:hover {
+  background-color: darkred;
+}
+
+.subtext {
+  font-size: 0.9rem;
+  color: #ccc;
+}
+
+/* index.html styling finished */
+
+/*Signin.html Styling*/
+.background1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.logo {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.logo span {
+  color: red;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.login-container {
+  width: 350px;
+  background-color: #000;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.login-box {
+  text-align: center;
+}
+
+.warning {
+  color: #ffa00a;
+  font-size: 0.9rem;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #333;
+  color: white;
+  font-size: 1rem;
+}
+
+.signin-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: red;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+.signin-btn:hover {
+  background-color: darkred;
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  font-size: 0.9rem;
+}
+
+.options label {
+  color: #ccc;
+}
+
+.help-link {
+  color: #ccc;
+  text-decoration: none;
+}
+
+.help-link:hover {
+  text-decoration: underline;
+}
+
+.signup-text {
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+}
+
+.signup-text a {
+  color: red;
+  text-decoration: none;
+}
+
+.signup-text a:hover {
+  text-decoration: underline;
+}
+
+.captcha-text {
+  font-size: 0.8rem;
+  color: #777;
+  line-height: 1.5;
+}
+/* signin styling finished */
+
+/*Home.html page*/
+
+
+.navbar {
+  /* display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #404040; */
+  background-color: #404040; /* Dark gray background for the navbar */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px; /* Add spacing for a more compact size */
+  height: 60px; /* Set a reasonable height */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+}
+
+.nav-links {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+.profile-menu {
+  display: flex;
+  position: relative;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+
+.profile-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.dropdown {
+  display: none; /* Initially hidden */
+  position: absolute;
+  top: 50px; /* Adjust the distance below the profile icon */
+  right: 0; /* Align the dropdown to the right */
+  background-color: white; /* Background for the dropdown */
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for better aesthetics */
+  padding: 10px 0;
+  z-index: 1000; /* Ensure it appears above other elements */
+}
+
+.dropdown ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.dropdown ul li {
+  padding: 10px 20px;
+}
+
+.dropdown ul li a {
+  text-decoration: none;
+  color: #404040;
+  font-size: 14px;
+  display: block;
+  transition: background-color 0.3s ease;
+}
+
+.dropdown ul li a:hover {
+  background-color: #f5f5f5; /* Light hover effect */
+}
+
+.profile-menu:hover .dropdown {
+  display: block; /* Show the dropdown when hovering over the profile menu */
+}
+/* Category Section Styles */
+.category {
+  margin: 2rem;
+}
+
+.category h2 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.movie {
+  position: relative;
+  text-align: center;
+}
+
+/* .movie img {
+  width: 100%;
+  border-radius: 8px;
+} */
+.movie img {
+  width: 200px; /* Set a consistent width */
+  height: 150px; /* Set a consistent height */
+  object-fit: cover; /* Ensures the image fills the space while maintaining its aspect ratio */
+  border-radius: 8px; /* Keeps the rounded corners */
+}
+
+
+.watch-now {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: red;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.watch-now:hover {
+  background: darkred;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+  }
+
+  .navbar {
+    flex-direction: column;
+  }
+
+  .row {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .row {
+    grid-template-columns: 1fr;
+  }
+}
+/*footer*/
+.footer {
+  background-color: #141414; /* Netflix's dark theme color */
+  color: #737373; /* Light grey text */
+  padding: 20px 40px;
+  font-size: 14px;
+  margin-top: 30px;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.footer-links {
+  margin-bottom: 20px;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.footer-links ul li {
+  margin: 5px 0;
+}
+
+.footer-links ul li a {
+  text-decoration: none;
+  color: #737373;
+  transition: color 0.3s;
+}
+
+.footer-links ul li a:hover {
+  color: #ffffff;
+}
+
+
+.copyright {
+  color: #737373;
+}
+
+
+
+
+
+
